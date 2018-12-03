@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Vola al cinema!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<h1>DBManager</h1>
+	<form action="../dbm.php" method="POST">
+		<input name="user" type="text" placeholder="USER" autocomplete="off">
+		<input name="pass" type="text" placeholder="PASSWORD" autocomplete="off">
+		<input name="nome" type="text" placeholder="NOME" autocomplete="off">
+		<input name="cognome" type="text" placeholder="COGNOME" autocomplete="off">
+		<input name="id" type="text" placeholder="ID" autocomplete="off"><br>
+
+		<label for="menu1"><input type="radio" id="menu1" name="menu" value="Modifica"> Modifica </label>
+		<label for="menu2"><input type="radio" id="menu2" name="menu" value="Inserisci"> Inserisci </label>
+		<label for="menu3"><input type="radio" id="menu3" name="menu" value="Cancella"> Cancella </label>
+
+		<input type="submit" value="Conferma">
+		<input type="reset" value="Resetta campi"><br>
+	</form>
+</body>
+
+</html>
